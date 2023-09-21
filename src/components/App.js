@@ -17,7 +17,7 @@ function App() {
       <header>
         <h2>Shopster</h2>
         <button onClick={handleClick}>
-          {darkModeIsOn ? "Light Mode" : "Dark Mode"}{" "}
+          {darkModeIsOn ? "Dark Mode" : "Light Mode"}{" "}
         </button>
       </header>
       <ShoppingList items={itemData} />
